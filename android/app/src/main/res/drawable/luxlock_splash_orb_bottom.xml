@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size
+        android:width="220dp"
+        android:height="220dp" />
+    <gradient
+        android:centerX="50%"
+        android:centerY="50%"
+        android:endColor="@color/luxlock_mint_glow_fade"
+        android:gradientRadius="148dp"
+        android:startColor="@color/luxlock_mint_glow"
+        android:type="radial" />
+</shape>

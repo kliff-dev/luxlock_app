@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Local/private files
+.env
+.env.*
+!.env.example
+**/secrets.h
+**/credentials.h
+**/*service-account*.json
+**/*serviceAccount*.json
+**/*.pem
+**/*.key
+**/*.p12
+~$*.docx
+/*.docx
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/.gradle/
+**/node_modules/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase local project config. Regenerate with FlutterFire/Firebase CLI.
+/lib/firebase_options.dart
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/macos/Runner/GoogleService-Info.plist
+
+# Local tooling and generated document-review artifacts
+/arduino-cli_1.4.1_Windows_64bit/
+/.bom_pdf_pages/
+/.codex_doc_review/
+/.docx_render_cleaned_rrl_rrs/
+/.render_code_comments/

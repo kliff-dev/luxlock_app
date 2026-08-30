@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="luxlock_midnight">#030712</color>
+    <color name="luxlock_steel">#101827</color>
+    <color name="luxlock_slate">#1A2638</color>
+    <color name="luxlock_gold_glow">#55F7D778</color>
+    <color name="luxlock_gold_glow_fade">#00F7D778</color>
+    <color name="luxlock_mint_glow">#3053E7FF</color>
+    <color name="luxlock_mint_glow_fade">#0053E7FF</color>
+    <color name="luxlock_panel">#3308111F</color>
+    <color name="luxlock_panel_border">#33F7D778</color>
+</resources>

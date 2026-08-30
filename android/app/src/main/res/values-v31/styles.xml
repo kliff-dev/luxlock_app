@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">@color/luxlock_midnight</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/luxlock_splash_mark</item>
+        <item name="android:windowSplashScreenAnimationDuration">220</item>
+        <item name="android:statusBarColor">@color/luxlock_midnight</item>
+        <item name="android:navigationBarColor">@color/luxlock_midnight</item>
+    </style>
+</resources>

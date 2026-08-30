@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/luxlock_splash_gradient" />
+
+    <item
+        android:drawable="@drawable/luxlock_splash_orb_top"
+        android:gravity="top|end"
+        android:right="12dp"
+        android:top="16dp" />
+
+    <item
+        android:bottom="18dp"
+        android:drawable="@drawable/luxlock_splash_orb_bottom"
+        android:gravity="bottom|start"
+        android:left="10dp" />
+
+    <item
+        android:drawable="@drawable/luxlock_splash_panel"
+        android:gravity="center" />
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/luxlock_splash_mark" />
+    </item>
+</layer-list>

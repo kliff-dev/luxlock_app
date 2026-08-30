@@ -1,0 +1,31 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "luxlock-3a53f",
+          "appId": "1:418610780829:android:c393cb86a262ee27e31274",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "luxlock-3a53f",
+          "configurations": {
+            "android": "1:418610780829:android:c393cb86a262ee27e31274",
+            "ios": "1:418610780829:ios:67955d377392c642e31274",
+            "macos": "1:418610780829:ios:67955d377392c642e31274",
+            "web": "1:418610780829:web:b7df5ce515ad9fd4e31274",
+            "windows": "1:418610780829:web:27c87d3df5460a71e31274"
+          }
+        }
+      }
+    }
+  }
+}
